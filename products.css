@@ -1,0 +1,596 @@
+@font-face {
+    font-family: 'Nexa';
+    src: url(./fonts/Nexa\Bold.woff);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url(./fonts/NexaBold.woff2);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url(./fonts/Nexa\regular.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url(./fonts/Nexa\regular.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url(./fonts/dinpro_bold.woff);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url(./fonts/dinpro_bold.woff2);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url(./fonts/dinpro_condensedregular.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url(./fonts/dinpro_condensedregular.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url(./fonts/dinpro_medium.woff);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url(./fonts/dinpro_medium.woff2);
+    font-weight: 500;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container {
+    padding-left: 125px;
+    max-width: 1440px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.navbar {
+    margin-top: 32px;
+    background-color: #fff;
+    width: 200px;
+    height: 2527px;
+    /* background-color: #fff; */
+}
+
+.img {
+    margin-left: 20px;
+}
+
+.logo {
+    color: #000;
+    font-family: Nexa;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.line {
+    margin-bottom: 35px;
+    margin-left: -20px;
+    width: 180px;
+    height: 0.5px;
+    background-color: #A4ACAD;
+    margin-right: 40px;
+}
+
+
+
+.icon {
+    margin-left: 10px;
+    margin-bottom: 30px;
+    gap: 20px;
+    align-items: center;
+    display: flex;
+}
+
+
+li a {
+    color: #000;
+    font-family: DIN Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    transition: all ease 400ms;
+}
+
+
+li a:hover {
+    color: #eb4817;
+    font-size: 28px;
+}
+
+
+.home {
+    width: 1170px;
+    height: 2330px;
+    background: #F2F2F2;
+    margin: 0 auto;
+    padding-left: 85px;
+    padding-top: 130px;
+}
+
+.infos {
+    margin-top: -130px;
+    display: flex;
+    width: 1169px;
+    border: 1px solid #A4ACAD;
+    height: 94.5px;
+    margin-left: -85px;
+    margin-bottom: 35px;
+}
+
+.info_title {
+    color: var(--3, #111);
+    text-align: center;
+    font-family: DIN Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+.tel1 {
+    margin-bottom: 3px;
+    color: var(--1, #FF9846);
+    text-align: center;
+    font-family: DIN Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    display: block;
+    /* 18px */
+    margin-left: 15px;
+}
+
+.time {
+    align-items: center;
+    gap: 5px;
+    /* margin-left: -35px; */
+    display: flex;
+    margin-left: 10px;
+}
+
+.info_text {
+    color: var(--4, #A4ACAD);
+    text-align: center;
+    font-family: DIN Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.line6 {
+    margin-top: -3px;
+    width: 0.5px;
+    height: 94.5px;
+    background-color: #A4ACAD;
+    margin-left: 30px;
+}
+
+.address {
+    margin-top: 26px;
+    margin-left: 15px;
+}
+
+.city {
+    color: var(--4, #A4ACAD);
+    text-align: center;
+
+    /* h3_light */
+    font-family: DIN Pro;
+    font-size: 16px;
+    margin-left: -3px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.city2 {
+    color: #000;
+    margin-left: 10px;
+    text-align: center;
+
+    /* h3_regular */
+    font-family: DIN Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.right {
+    display: flex;
+    margin-top: 37px;
+    margin-left: 509px;
+}
+
+.com {
+    color: var(--3, #111);
+    text-align: center;
+
+    /* h3_regular */
+    font-family: DIN Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 8px;
+    transition: all ease 400ms;
+}
+
+.com:hover {
+    color: #FF543E;
+    cursor: pointer;
+}
+
+.dost {
+    color: var(--1, #111);
+    margin-right: 69px;
+    text-align: center;
+
+    /* h3_regular */
+    font-family: DIN Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: all ease 400ms;
+    cursor: pointer;
+}
+
+.dost:hover {
+    color: #FF543E;
+}
+
+.page {
+    display: flex;
+    /* align-self: center; */
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.page_title {
+    color: #000;
+    font-family: DIN Pro;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.img1 {
+    background: url(./images/card2.jpg);
+    width: 224px;
+    height: 200px;
+}
+
+.cards {
+    margin-top: 52px;
+    margin-bottom: 173px;
+}
+
+.cards_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+.card1 {
+    width: 289px;
+    height: 410px;
+    background: var(--8, #FFF);
+    padding-left: 17px;
+}
+
+.card_img {
+    /* margin-left: 20px; */
+    margin-bottom: 30px;
+}
+
+.card_title {
+    color: #000;
+    font-family: DIN Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.card_text {
+    color: var(--4, #A4ACAD);
+
+    /* h3_regular */
+    font-family: DIN Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.line2 {
+    width: 290px;
+    height: 1px;
+    background-color: #A4ACAD;
+    margin-left: -17px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.wrapper {
+    align-items: center;
+    display: flex;
+    gap: 12px;
+}
+
+.card_price {
+    color: #000;
+    font-family: DIN Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card_btn {
+    margin-top: -5px;
+    border: none;
+    display: inline-flex;
+    padding: 5px 42px;
+    align-items: flex-start;
+    border-radius: 5px;
+    background: var(--5, #F46D40);
+    gap: 10px;
+    transition: all ease 400ms;
+}
+
+.card_btn:hover {
+    background-color: rgb(94, 250, 94);
+}
+
+.card_btn a {
+    color: var(--2, #F2F2F2);
+    text-align: center;
+    font-family: DIN Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.last_title {
+    color: var(--4, #A4ACAD);
+    font-family: DIN Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.last_text {
+    color: var(--4, #A4ACAD);
+    font-family: DIN Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    /* 18px */
+    width: 950px;
+}
+
+.last_icon {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 410px;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.link {
+    color: var(--5, #F46D40);
+    font-family: DIN Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 24px */
+}
+
+.down {
+    margin-top: 6px;
+    width: 15px;
+    height: 7px;
+    color: #F46D40;
+}
+
+
+.line3 {
+    width: 950px;
+    height: 1px;
+    background-color: #A4ACAD;
+    margin-bottom: 45px;
+}
+
+
+
+.footer_wrapper {
+    margin-left: 10px;
+    display: flex;
+}
+
+.list {
+    margin-top: 20px;
+    margin-right: 133px;
+}
+
+.list_item a {
+    color: #000;
+    font-family: DIN Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 18px */
+    margin-top: 20px;
+}
+
+
+.line4 {
+    width: 1px;
+    height: 247px;
+    background-color: #A4ACAD;
+    margin-right: 40px;
+}
+
+.number {
+    color: #000;
+
+    /* h4_medium */
+    font-family: DIN Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.footer_text1 {
+    color: var(--4, #A4ACAD);
+
+    /* h4_medium */
+    font-family: DIN Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.foot_text {
+    color: var(--4, #A4ACAD);
+
+    /* h3_regular */
+    font-family: DIN Pro;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 212px;
+}
+
+.foot_icons {
+    display: flex;
+    gap: 30px;
+    margin-right: 80px;
+    margin-top: 15px;
+}
+
+.whats {
+    font-size: 50px;
+    opacity: 0.4;
+    color: #25D366;
+    cursor: pointer;
+}
+
+.telegram {
+    font-size: 50px;
+    color: #229ED9;
+    cursor: pointer;
+}
+
+.ins {
+    font-size: 50px;
+    color: #FF543E;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.line5 {
+    width: 1px;
+    height: 247px;
+    background-color: #A4ACAD;
+}
+
+.tels {
+    padding-left: 41px;
+}
+
+.tel {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--4, #A4ACAD);
+
+    /* h3_regular */
+    font-family: DIN Pro;
+    font-size: 18px;
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: all ease-in 400ms;
+}
+
+.tel:hover {
+    color: #FF543E;
+}
+
+address {
+    color: var(--4, #A4ACAD);
+
+    /* h3_regular */
+    font-family: DIN Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: all ease-in 400ms;
+    cursor: pointer;
+}
+
+
+address:hover {
+    color: #FF543E;
+}
